@@ -1,0 +1,14 @@
+
+{
+    "name": "pac-man",
+    "private": true,
+    "version": "0.1.0",
+    "description": "pac-man",
+    "scripts": {
+        "start": "npm run webpack",
+        "webpack": "webpack -d --watch"
+    },
+    "dependencies": {
+        "webpack": "^3.0.0"
+    }
+}
