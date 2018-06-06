@@ -16,7 +16,7 @@
 
 import Point from './Point.js';
 
-export default class Player {
+export default class MovingCharacter {
     constructor(constructorObject) {
         this.environment = constructorObject.environment;
         this.position = constructorObject.position;
@@ -147,6 +147,7 @@ export default class Player {
     }
 
     draw(canvas,color) {
+
         canvas.context.beginPath();
         canvas.context.fillStyle = color;
         canvas.context.arc(this.position.x, this.position.y, this.unit/2, 0, 7);
